@@ -14,7 +14,7 @@ const schemaValidator = (schema) => (req, res, next) =>{
         });
     }
     
-    next();
+    return next();
 }
 
 module.exports = schemaValidator;
