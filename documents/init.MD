@@ -16,3 +16,9 @@
 
 ## criar controller
 ## Json schema -yarn add jsonschema
+
+###  rm -r node_modules  obs: criar gitignore, yarn, para não subir node_modules pro git deixando a aplicação pesada
+
+## para salvar as senhas de forma ecriptada e segura, yarn add bcryptjs: https://www.npmjs.com/package/bcryptjs
+
+## yarn add jsonwebtoken para adicionar no controller de authentication a geração de tokens - https://www.npmjs.com/package/jsonwebtoken
