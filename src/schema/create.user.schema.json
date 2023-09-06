@@ -21,9 +21,9 @@
         "avatar":{
             "type":"string"
         },
-        "password_hash":{
+        "password":{
             "type":"string"
         }
     },
-    "required": ["name", "user_name","email","bio", "gender", "avatar", "password_hash"]
+    "required": ["name", "user_name","email","bio", "gender", "avatar", "password"]
   }
